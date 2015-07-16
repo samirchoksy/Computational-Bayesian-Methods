@@ -33,7 +33,7 @@ B = 40
 # posterior arrays
 p_mu = rep(0,T)
 p_sigma = rep(0,T)
-lambda  = rexp(T, rate=2)
+lambda = rexp(T, rate=2)
 
 # update hyperparameters
 mu_lambda = sum(y^2/lambda)/sum(1/lambda)
